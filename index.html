@@ -3,230 +3,341 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contador de palabras online gratis | Palabras y caracteres</title>
-<meta name="description" content="Contador de palabras online gratis. Cuenta palabras, caracteres, caracteres sin espacios y frases de cualquier texto de forma rápida y sencilla.">
-<meta name="robots" content="index, follow">
-<meta name="author" content="21yasmin21">
-<link rel="canonical" href="https://21yasmin21.github.io/21yasmin21/">
-<meta property="og:title" content="Contador de palabras online gratis">
-<meta property="og:description" content="Cuenta palabras, caracteres, frases y caracteres sin espacios de forma rápida y gratuita.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://21yasmin21.github.io/21yasmin21/">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Contador de palabras online gratis">
-<meta name="twitter:description" content="Cuenta palabras, caracteres y frases online de forma rápida y gratuita.">
-<style>
-    * {
-        box-sizing: border-box;
-    }
-    body {
-        font-family: Arial, sans-serif;
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 30px 20px;
-        background: #f5f5f5;
-        color: #222;
-        line-height: 1.6;
-    }
-    h1 {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    h2 {
-        margin-top: 35px;
-    }
-    h3 {
-        margin-top: 25px;
-    }
-    .descripcion {
-        text-align: center;
-        color: #666;
-        margin-bottom: 25px;
-    }
-    .editor {
-        background: white;
-        padding: 20px;
-        border-radius: 14px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-    label {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-    textarea {
-        width: 100%;
-        height: 300px;
-        padding: 15px;
-        font-size: 17px;
-        border: 1px solid #ccc;
-        border-radius: 12px;
-        resize: vertical;
-        font-family: Arial, sans-serif;
-        line-height: 1.5;
-    }
-    textarea:focus {
-        outline: 2px solid #555;
-        border-color: #555;
-    }
-    .resultados {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-        margin-top: 20px;
-    }
-    .resultado {
-        background: white;
-        padding: 20px;
-        border-radius: 12px;
-        text-align: center;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-    .numero {
-        font-size: 30px;
-        font-weight: bold;
-        margin-top: 5px;
-    }
-    .contenido-informativo {
-        background: white;
-        padding: 25px;
-        margin-top: 35px;
-        border-radius: 14px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    }
-    .contenido-informativo p {
-        color: #444;
-    }
-    .faq {
-        border-top: 1px solid #eee;
-        padding-top: 10px;
-    }
-    footer {
-        text-align: center;
-        color: #777;
-        margin-top: 40px;
-        padding-bottom: 20px;
-        font-size: 14px;
-    }
-    @media (max-width: 600px) {
+
+    <title>Contador de palabras online y caracteres gratis</title>
+
+    <meta name="description" content="Contador de palabras online gratis. Cuenta palabras, caracteres, caracteres sin espacios y frases de cualquier texto de forma rápida y sencilla.">
+
+    <meta name="robots" content="index, follow">
+
+    <meta name="author" content="21yasmin21">
+
+    <link rel="canonical" href="https://21yasmin21.github.io/21yasmin21/">
+
+    <meta property="og:title" content="Contador de palabras online y caracteres gratis">
+    <meta property="og:description" content="Cuenta palabras, caracteres, frases y caracteres sin espacios de forma rápida y gratuita.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://21yasmin21.github.io/21yasmin21/">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Contador de palabras online">
+    <meta name="twitter:description" content="Cuenta palabras y caracteres online de forma rápida y gratuita.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            padding: 20px 15px;
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background: #f5f5f5;
+            color: #222;
+            line-height: 1.6;
         }
-        .resultados {
-            grid-template-columns: 1fr;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
         }
-        textarea {
-            height: 250px;
+
+        h2 {
+            margin-top: 35px;
         }
-        .contenido-informativo {
+
+        h3 {
+            margin-top: 25px;
+        }
+
+        .descripcion {
+            text-align: center;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .editor {
+            background: white;
             padding: 20px;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 300px;
+            padding: 15px;
+            font-size: 17px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            resize: vertical;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+
+        textarea:focus {
+            outline: 2px solid #555;
+            border-color: #555;
+        }
+
+        .resultados {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .resultado {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .numero {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .contenido-informativo {
+            background: white;
+            padding: 25px;
+            margin-top: 35px;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        }
+
+        .contenido-informativo p {
+            color: #444;
+        }
+
+        .faq {
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            color: #777;
+            margin-top: 40px;
+            padding-bottom: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 15px;
+            }
+
+            .resultados {
+                grid-template-columns: 1fr;
+            }
+
+            textarea {
+                height: 250px;
+            }
+
+            .contenido-informativo {
+                padding: 20px;
+            }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Contador de palabras online",
+        "url": "https://21yasmin21.github.io/21yasmin21/",
+        "description": "Herramienta gratuita para contar palabras, caracteres, caracteres sin espacios y frases.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "EUR"
         }
     }
-</style>
+    </script>
 </head>
+
 <body>
+
 <main>
+
     <h1>🧮 Contador de palabras online</h1>
+
     <p class="descripcion">
         Cuenta palabras, caracteres, frases y caracteres sin espacios
         de cualquier texto de forma rápida, sencilla y gratuita.
     </p>
+
     <div class="editor">
+
         <label for="texto">
             Escribe o pega tu texto:
         </label>
+
         <textarea
             id="texto"
             aria-label="Texto para contar palabras y caracteres"
             placeholder="Escribe o pega tu texto aquí..."
             spellcheck="true"
         ></textarea>
+
     </div>
+
     <div class="resultados">
+
         <div class="resultado">
             <div>Palabras</div>
             <div class="numero" id="palabras">0</div>
         </div>
+
         <div class="resultado">
             <div>Caracteres</div>
             <div class="numero" id="caracteres">0</div>
         </div>
+
         <div class="resultado">
             <div>Sin espacios</div>
             <div class="numero" id="sinEspacios">0</div>
         </div>
+
         <div class="resultado">
             <div>Frases</div>
             <div class="numero" id="frases">0</div>
         </div>
+
     </div>
+
     <section class="contenido-informativo">
+
         <h2>¿Qué es un contador de palabras?</h2>
+
         <p>
             Un contador de palabras es una herramienta online que permite
             saber rápidamente cuántas palabras contiene un texto.
             También puede mostrar el número de caracteres, caracteres
             sin espacios y frases.
         </p>
+
+        <h2>Contador de caracteres online</h2>
+
+        <p>
+            Además de contar palabras, esta herramienta permite conocer
+            cuántos caracteres tiene un texto. Puedes ver los caracteres
+            totales y los caracteres sin espacios.
+        </p>
+
         <h2>¿Cómo contar palabras online?</h2>
+
         <p>
             Es muy sencillo. Escribe o pega tu texto en el cuadro de
             arriba y los resultados se actualizarán automáticamente.
             No necesitas instalar ningún programa.
         </p>
+
         <h2>¿Para qué sirve un contador de palabras?</h2>
+
         <p>
             Puedes utilizarlo para trabajos, redacciones, artículos,
             publicaciones, textos académicos, documentos y cualquier
             contenido en el que necesites conocer su longitud.
         </p>
+
         <h2>Preguntas frecuentes</h2>
+
         <div class="faq">
+
             <h3>¿El contador de palabras es gratis?</h3>
+
             <p>
                 Sí. Esta herramienta se puede utilizar gratuitamente
                 desde el navegador.
             </p>
+
             <h3>¿Necesito descargar alguna aplicación?</h3>
+
             <p>
                 No. El contador funciona directamente en tu navegador.
             </p>
+
             <h3>¿Puedo copiar y pegar mi texto?</h3>
+
             <p>
                 Sí. Puedes pegar cualquier texto en el cuadro y los
                 resultados se actualizarán automáticamente.
             </p>
+
             <h3>¿Cuenta también los caracteres?</h3>
+
             <p>
                 Sí. La herramienta muestra tanto los caracteres totales
                 como los caracteres sin espacios.
             </p>
+
         </div>
+
     </section>
+
 </main>
+
 <footer>
     Contador de palabras online gratis · 21yasmin21
 </footer>
+
 <script>
+
     const texto = document.getElementById("texto");
-    const palabrasElemento = document.getElementById("palabras");
-    const caracteresElemento = document.getElementById("caracteres");
-    const sinEspaciosElemento = document.getElementById("sinEspacios");
-    const frasesElemento = document.getElementById("frases");
+
+    const palabras = document.getElementById("palabras");
+
+    const caracteres = document.getElementById("caracteres");
+
+    const sinEspacios = document.getElementById("sinEspacios");
+
+    const frases = document.getElementById("frases");
+
+
     function actualizarContador() {
+
         const contenido = texto.value;
-        caracteresElemento.textContent = contenido.length;
-        sinEspaciosElemento.textContent =
+
+        const palabrasArray = contenido.trim()
+            ? contenido.trim().split(/\s+/)
+            : [];
+
+        palabras.textContent = palabrasArray.length;
+
+        caracteres.textContent = contenido.length;
+
+        sinEspacios.textContent =
             contenido.replace(/\s/g, "").length;
-        const palabras = contenido.trim() === ""
-            ? []
-            : contenido.trim().split(/\s+/);
-        palabrasElemento.textContent = palabras.length;
-        const frases = contenido.match(/[.!?]+/g);
-        frasesElemento.textContent =
-            frases ? frases.length : 0;
+
+        const frasesArray = contenido
+            .split(/[.!?]+/)
+            .map(frase => frase.trim())
+            .filter(frase => frase.length > 0);
+
+        frases.textContent = frasesArray.length;
     }
+
+
     texto.addEventListener("input", actualizarContador);
+
+    actualizarContador();
+
 </script>
+
 </body>
 </html>
